@@ -1,0 +1,100 @@
+[debug] [2024-12-29T12:23:58.894Z] ----------------------------------------------------------------------
+[debug] [2024-12-29T12:23:58.904Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-29T12:23:58.905Z] CLI Version:   13.29.1
+[debug] [2024-12-29T12:23:58.906Z] Platform:      win32
+[debug] [2024-12-29T12:23:58.906Z] Node Version:  v20.12.2
+[debug] [2024-12-29T12:23:58.906Z] Time:          Sun Dec 29 2024 13:23:58 GMT+0100 (Central European Standard Time)
+[debug] [2024-12-29T12:23:58.906Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-29T12:23:58.923Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-29T12:23:58.924Z] > authorizing via signed-in user (dawit212319@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Tash and 4K download\reset\my-react-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-29T12:24:28.414Z] Checked if tokens are valid: true, expires at: 1735478559227
+[debug] [2024-12-29T12:24:28.415Z] Checked if tokens are valid: true, expires at: 1735478559227
+[debug] [2024-12-29T12:24:28.419Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-29T12:24:40.149Z] *** [apiv2] error from fetch(https://firebase.googleapis.com/v1beta1/projects?pageSize=100, {"headers":{},"method":"GET","signal":{}}): FetchError: request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100 failed, reason: getaddrinfo ENOTFOUND firebase.googleapis.com
+[debug] [2024-12-29T12:24:40.150Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+[debug] [2024-12-29T12:24:40.216Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects?pageSize=100
+    at RetryOperation._fn (C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:261:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.
+[debug] [2024-12-29T12:26:18.345Z] ----------------------------------------------------------------------
+[debug] [2024-12-29T12:26:18.353Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-29T12:26:18.353Z] CLI Version:   13.29.1
+[debug] [2024-12-29T12:26:18.353Z] Platform:      win32
+[debug] [2024-12-29T12:26:18.354Z] Node Version:  v20.12.2
+[debug] [2024-12-29T12:26:18.354Z] Time:          Sun Dec 29 2024 13:26:18 GMT+0100 (Central European Standard Time)
+[debug] [2024-12-29T12:26:18.354Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-29T12:26:18.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-29T12:26:18.369Z] > authorizing via signed-in user (dawit212319@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Tash and 4K download\reset\my-react-app
+
+[debug] [2024-12-29T12:32:40.543Z] ----------------------------------------------------------------------
+[debug] [2024-12-29T12:32:40.552Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-29T12:32:40.552Z] CLI Version:   13.29.1
+[debug] [2024-12-29T12:32:40.553Z] Platform:      win32
+[debug] [2024-12-29T12:32:40.553Z] Node Version:  v20.12.2
+[debug] [2024-12-29T12:32:40.554Z] Time:          Sun Dec 29 2024 13:32:40 GMT+0100 (Central European Standard Time)
+[debug] [2024-12-29T12:32:40.554Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-29T12:32:40.570Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-29T12:32:40.571Z] > authorizing via signed-in user (dawit212319@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\Tash and 4K download\reset\my-react-app
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  If you want to create a project in a Google Cloud organization or folder, please use "firebase projects:create" instead, and return to this command when you've created the project. 
+[debug] [2024-12-29T12:35:22.670Z] Checked if tokens are valid: true, expires at: 1735478559227
+[debug] [2024-12-29T12:35:22.671Z] Checked if tokens are valid: true, expires at: 1735478559227
+[debug] [2024-12-29T12:35:22.674Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects [none]
+[debug] [2024-12-29T12:35:22.674Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"projectId":"2321dawit21","name":"dawitendashaw"}
+[debug] [2024-12-29T12:35:26.573Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects 400
+[debug] [2024-12-29T12:35:26.573Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects {"error":{"code":400,"message":"field [project_id] has issue [project_id contains invalid characters]","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.BadRequest","fieldViolations":[{"field":"project_id","description":"project_id contains invalid characters"}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"url":"https://cloud.google.com/resource-manager/reference/rest/v1/projects"}]}]}}
+[debug] [2024-12-29T12:35:27.777Z] FirebaseError: Request to https://cloudresourcemanager.googleapis.com/v1/projects had HTTP Error: 400, field [project_id] has issue [project_id contains invalid characters]
+    at responseToError (C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\win\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to create project. See firebase-debug.log for more info.
